@@ -121,6 +121,9 @@ main .sidy-by-side{
   flex-direction: row;
   justify-content: space-between;
 }
+ul{
+  list-style-type: none;
+}
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
 }
@@ -214,6 +217,10 @@ footer{
   }
   .hidden-on-sm{
     display: none;
+  }
+  main .row{
+    flex-direction: column;
+    align-items: center;
   }
   main .sidy-by-side{
     flex-direction: column;
